@@ -2,31 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Articulate Design Co - Modern Design System */
+/* Formula 1 Racing - Vibrant Design System */
 
 @layer base {
   :root {
     /* Core Brand Colors */
-    --background: 0 0% 100%;
-    --foreground: 220 35% 12%;
+    --background: 0 0% 98%;
+    --foreground: 0 0% 8%;
 
-    /* Navy Blue Primary */
-    --primary: 220 35% 12%;
+    /* Racing Red Primary */
+    --primary: 0 84% 50%;
     --primary-foreground: 0 0% 100%;
-    --primary-light: 220 25% 20%;
-    --primary-dark: 220 45% 8%;
+    --primary-light: 0 84% 60%;
+    --primary-dark: 0 84% 40%;
 
-    /* Yellow Accent */
-    --accent: 45 98% 55%;
-    --accent-foreground: 220 35% 12%;
-    --accent-light: 45 98% 65%;
-    --accent-dark: 45 98% 45%;
+    /* Neon Accent */
+    --accent: 120 100% 50%;
+    --accent-foreground: 0 0% 8%;
+    --accent-light: 120 100% 60%;
+    --accent-dark: 120 100% 40%;
 
-    /* Sophisticated Grays */
-    --secondary: 220 15% 96%;
-    --secondary-foreground: 220 35% 12%;
-    --muted: 220 15% 94%;
-    --muted-foreground: 220 15% 45%;
+    /* Racing Black & Grays */
+    --secondary: 0 0% 12%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 20%;
+    --muted-foreground: 0 0% 60%;
 
     /* UI Elements */
     --card: 0 0% 100%;
@@ -112,10 +112,11 @@
 /* Custom Gradients & Effects */
 @layer base {
   :root {
-    /* Beautiful Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-light)));
-    --gradient-accent: linear-gradient(135deg, hsl(var(--accent)), hsl(var(--accent-light)));
-    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--primary-light)) 100%);
+    /* Racing Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-dark)));
+    --gradient-accent: linear-gradient(135deg, hsl(var(--accent)), hsl(var(--accent-dark)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--secondary)) 100%);
+    --gradient-racing: linear-gradient(90deg, hsl(var(--primary)) 0%, hsl(var(--accent)) 50%, hsl(var(--primary)) 100%);
     
     /* Modern Shadows */
     --shadow-soft: 0 4px 20px -2px hsl(var(--primary) / 0.1);

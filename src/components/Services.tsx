@@ -90,8 +90,8 @@ const Services = () => {
         </div>
 
         <div className="text-center mt-16">
-          <Button variant="hero" size="lg">
-            Discuss Your Project
+          <Button variant="racing" size="lg">
+            Join Our Racing Community
           </Button>
         </div>
       </div>

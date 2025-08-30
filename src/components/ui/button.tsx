@@ -10,7 +10,7 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default: "bg-primary text-primary-foreground hover:bg-primary/90 transition-smooth",
-        hero: "hero-gradient text-white hover:shadow-accent font-semibold shadow-medium hover:scale-105 transition-bounce",
+        racing: "bg-gradient-to-r from-primary via-accent to-primary text-white hover:shadow-accent font-bold shadow-large hover:scale-105 transition-bounce animate-pulse",
         accent: "accent-gradient text-accent-foreground hover:opacity-90 font-medium shadow-soft transition-smooth",
         outline: "border-2 border-primary text-primary bg-transparent hover:bg-primary hover:text-primary-foreground transition-smooth",
         ghost: "text-primary hover:bg-primary/10 transition-smooth",
